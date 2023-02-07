@@ -110,3 +110,45 @@ header {
 .secondary-btn {
   padding: 0;
 }
+
+/* our plan section */
+.our-plan-container {
+  width: 80%;
+  margin: 10px auto;
+}
+.our-plan-header {
+  text-align: center;
+}
+
+.our-plan-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 20px auto;
+}
+.card {
+  display: flex;
+  margin-top: 40px;
+}
+.card1,
+.card2,
+.card3 {
+  margin: 20px;
+
+  padding: 60px 30px;
+}
+
+.card1 {
+  background-color: #4f9da61a;
+}
+.card2 {
+  background-color: #ff59591a;
+}
+.card3 {
+  background-color: #fff4d6;
+}
+.card-img {
+  margin: 15px 0;
+}
+.card-title {
+  margin: 14px 0;
+}
