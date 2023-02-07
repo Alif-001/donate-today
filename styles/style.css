@@ -22,7 +22,7 @@ p {
 /* header section */
 header {
   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
-    url(../images/donation1.jpg);
+    url(../images/donation2.jpg);
 
   background-repeat: no-repeat;
   width: 100vw;
@@ -234,7 +234,7 @@ header {
 .news-letter-input input[type="text"] {
   width: 432px;
   height: 56px;
-  background-color: #ccbebed5;
+  background-color: #c7c1c1be;
   border-radius: 5px;
   border: none;
   padding-left: 15px;
@@ -254,6 +254,7 @@ header {
 /* footer section */
 
 .footer {
+  margin-top: 100px;
   background: #0b0d17;
   text-align: center;
   padding: 45px;
