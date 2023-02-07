@@ -2,10 +2,22 @@
   margin: 0;
   padding: 0;
 }
-Body {
+body {
   box-sizing: border-box;
   position: absolute;
   overflow-x: hidden;
+}
+/* fonts */
+h1,
+h2,
+button {
+  font-family: "Inter", sans-serif;
+}
+h6 {
+  font-family: "Lobster", cursive;
+}
+p {
+  font-family: "Poppins", sans-serif;
 }
 header {
   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
