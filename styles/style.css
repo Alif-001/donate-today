@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
 }
-BODY {
+Body {
   box-sizing: border-box;
+  position: absolute;
+  overflow-x: hidden;
 }
 header {
   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
@@ -13,12 +15,11 @@ header {
   width: 100vw;
   height: 100vh;
   background-size: cover;
-
-  position: absolute;
+  position: relative;
 }
 .title {
-  padding: 50px 80px;
-  margin: 100px 0 0 0;
+  padding: 100px 80px;
+  margin: 00px 0 0 0;
 }
 
 .title h1 {
@@ -36,7 +37,7 @@ header {
   font-size: 18px;
   color: white;
   padding: 0 100px;
-  margin-top: 20px;
+  margin: 20px 100px;
 }
 .primary-btn {
   all: unset;
@@ -46,9 +47,9 @@ header {
   justify-content: center;
   align-items: center;
   padding: 8px 6px;
+  margin: auto;
   gap: 8px;
 
-  position: absolute;
   width: 160px;
   height: 56px;
   left: 640px;
@@ -59,4 +60,53 @@ header {
   color: white;
   font-weight: bold;
   font-size: 20px;
+}
+
+.donate {
+  text-align: center;
+  margin: 80px auto;
+}
+.donate h1 {
+  font-size: 45px;
+  margin: 20px;
+}
+.donate .sub-text {
+  display: flex;
+  align-items: center;
+  margin: 0 200px 20px 200px;
+  padding: 20px 80px;
+  text-align: center;
+}
+
+.pay-amount {
+  display: flex;
+  justify-content: center;
+  margin: 0 200px;
+  padding: auto 50px;
+  align-items: center;
+}
+.pay-amount h2 {
+  margin: 22px;
+  padding: 44px 23px;
+  border-radius: 5px;
+  color: #707070;
+  background-color: #f4f4f4;
+}
+#selected {
+  color: tomato;
+  background-color: #ffeeee;
+  border: 2px solid tomato;
+}
+.other-amount {
+  color: #b3b3b3;
+  margin-top: 20px;
+}
+
+.donate hr {
+  text-align: center;
+  margin: 20px auto;
+  width: 70%;
+}
+.secondary-btn {
+  padding: 0;
 }
