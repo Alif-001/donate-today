@@ -19,6 +19,7 @@ h6 {
 p {
   font-family: "Poppins", sans-serif;
 }
+/* header section */
 header {
   background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
     url(../images/donation1.jpg);
