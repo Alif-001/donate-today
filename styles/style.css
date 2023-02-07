@@ -152,3 +152,39 @@ header {
 .card-title {
   margin: 14px 0;
 }
+
+/* contribute section */
+.contribute-container {
+  width: 80%;
+  margin: 150px auto;
+}
+.contribute {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.contribute-txt {
+  margin: 30px;
+  text-align: start;
+}
+.contribute-title {
+  font-size: 45px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+.contribute-description {
+  margin: 30px 0 20px 0;
+}
+.contribute-img {
+  height: 450px;
+  width: 450px;
+  border-radius: 5px;
+  margin: 50px;
+}
+.contribute-btn {
+  justify-content: start;
+  margin: 0;
+  padding: 0 10px;
+  margin-top: 10px;
+  width: auto;
+}
