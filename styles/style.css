@@ -238,3 +238,19 @@ header {
   top: 2px;
   left: -10px;
 }
+/* footer section */
+
+.footer {
+  background: #0b0d17;
+  text-align: center;
+  padding: 45px;
+}
+.footer-div h6 {
+  color: #ff5959;
+  font-weight: bold;
+  font-size: 45px;
+  margin-bottom: 20px;
+}
+.footer-div p {
+  color: white;
+}
